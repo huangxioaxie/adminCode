@@ -13,6 +13,9 @@ import { menuHeader, menuAside } from '@/menu'
 import { frameInRoutes } from '@/router/routes'
 //  图表
 // import echarts from 'echarts'
+
+
+
 // 核心插件
 Vue.use(d2Admin)
 

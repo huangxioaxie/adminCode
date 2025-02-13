@@ -153,16 +153,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IDMFy60mEpOIKTwCdm0q-38" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="410" y="360" as="sourcePoint" />
-            <mxPoint x="460" y="310" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="460" y="360" />
-              <mxPoint x="410" y="310" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="IDMFy60mEpOIKTwCdm0q-39" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="IDMFy60mEpOIKTwCdm0q-12" target="IDMFy60mEpOIKTwCdm0q-16">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="150" y="600" as="sourcePoint" />

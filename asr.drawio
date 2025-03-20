@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="TeLhkM62TzhfqkYI3094-28" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="310" width="840" height="130" as="geometry" />
+        </mxCell>
         <mxCell id="TeLhkM62TzhfqkYI3094-1" value="音频输入" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
           <mxGeometry x="230" y="350" width="94" height="54" as="geometry" />
         </mxCell>
@@ -46,6 +49,9 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="TeLhkM62TzhfqkYI3094-29" value="&lt;div&gt;ASR&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="200" y="290" width="100" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

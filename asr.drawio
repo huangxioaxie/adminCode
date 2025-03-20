@@ -105,6 +105,26 @@
         <mxCell id="TeLhkM62TzhfqkYI3094-54" value="通话音频" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
           <mxGeometry x="30" y="416" width="94" height="54" as="geometry" />
         </mxCell>
+        <mxCell id="TeLhkM62TzhfqkYI3094-55" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="TeLhkM62TzhfqkYI3094-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="410" as="sourcePoint" />
+            <mxPoint x="130" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="375" />
+              <mxPoint x="140" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TeLhkM62TzhfqkYI3094-56" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=-0.001;entryY=0.631;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="TeLhkM62TzhfqkYI3094-54" target="TeLhkM62TzhfqkYI3094-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="540" as="sourcePoint" />
+            <mxPoint x="170" y="473" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="90" y="505" />
+              <mxPoint x="110" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

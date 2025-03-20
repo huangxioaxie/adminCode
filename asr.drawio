@@ -5,22 +5,22 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="TeLhkM62TzhfqkYI3094-1" value="音频输入" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="80" y="300" width="94" height="54" as="geometry" />
+          <mxGeometry x="230" y="350" width="94" height="54" as="geometry" />
         </mxCell>
         <mxCell id="TeLhkM62TzhfqkYI3094-2" value="VAD" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="224" y="300" width="57" height="54" as="geometry" />
+          <mxGeometry x="374" y="350" width="57" height="54" as="geometry" />
         </mxCell>
         <mxCell id="TeLhkM62TzhfqkYI3094-3" value="ASR" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="331" y="300" width="56" height="54" as="geometry" />
+          <mxGeometry x="481" y="350" width="56" height="54" as="geometry" />
         </mxCell>
         <mxCell id="TeLhkM62TzhfqkYI3094-4" value="标点恢复" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="437" y="300" width="94" height="54" as="geometry" />
+          <mxGeometry x="587" y="350" width="94" height="54" as="geometry" />
         </mxCell>
         <mxCell id="TeLhkM62TzhfqkYI3094-5" value="文本转数字" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="581" y="300" width="110" height="54" as="geometry" />
+          <mxGeometry x="731" y="350" width="110" height="54" as="geometry" />
         </mxCell>
         <mxCell id="TeLhkM62TzhfqkYI3094-6" value="文本输出" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="741" y="300" width="94" height="54" as="geometry" />
+          <mxGeometry x="891" y="350" width="94" height="54" as="geometry" />
         </mxCell>
         <mxCell id="TeLhkM62TzhfqkYI3094-7" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="TeLhkM62TzhfqkYI3094-1" target="TeLhkM62TzhfqkYI3094-2">
           <mxGeometry relative="1" as="geometry">
@@ -45,94 +45,6 @@
         <mxCell id="TeLhkM62TzhfqkYI3094-11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="TeLhkM62TzhfqkYI3094-5" target="TeLhkM62TzhfqkYI3094-6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TeLhkM62TzhfqkYI3094-12" value="用户" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
-          <mxGeometry x="80" y="490" width="150" height="680" as="geometry" />
-        </mxCell>
-        <mxCell id="TeLhkM62TzhfqkYI3094-13" value="系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
-          <mxGeometry x="280" y="490" width="150" height="680" as="geometry" />
-        </mxCell>
-        <mxCell id="TeLhkM62TzhfqkYI3094-14" value="VAD" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
-          <mxGeometry x="480" y="490" width="150" height="680" as="geometry" />
-        </mxCell>
-        <mxCell id="TeLhkM62TzhfqkYI3094-15" value="ASR" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
-          <mxGeometry x="680" y="490" width="150" height="680" as="geometry" />
-        </mxCell>
-        <mxCell id="TeLhkM62TzhfqkYI3094-16" value="标点恢复" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
-          <mxGeometry x="880" y="490" width="150" height="680" as="geometry" />
-        </mxCell>
-        <mxCell id="TeLhkM62TzhfqkYI3094-17" value="后处理" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="490" width="150" height="680" as="geometry" />
-        </mxCell>
-        <mxCell id="TeLhkM62TzhfqkYI3094-18" value="上传音频" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="TeLhkM62TzhfqkYI3094-12" target="TeLhkM62TzhfqkYI3094-13">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="264" y="597" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TeLhkM62TzhfqkYI3094-19" value="检测语音段" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="TeLhkM62TzhfqkYI3094-13" target="TeLhkM62TzhfqkYI3094-14">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="464" y="649" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TeLhkM62TzhfqkYI3094-20" value="返回有效音频分段" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="TeLhkM62TzhfqkYI3094-14" target="TeLhkM62TzhfqkYI3094-13">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="467" y="701" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TeLhkM62TzhfqkYI3094-21" value="转写音频为文本" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="TeLhkM62TzhfqkYI3094-13" target="TeLhkM62TzhfqkYI3094-15">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="564" y="753" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TeLhkM62TzhfqkYI3094-22" value="返回原始文本" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="TeLhkM62TzhfqkYI3094-15" target="TeLhkM62TzhfqkYI3094-13">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="567" y="805" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TeLhkM62TzhfqkYI3094-23" value="添加标点" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="TeLhkM62TzhfqkYI3094-13" target="TeLhkM62TzhfqkYI3094-16">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="664" y="857" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TeLhkM62TzhfqkYI3094-24" value="带标点文本" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="TeLhkM62TzhfqkYI3094-16" target="TeLhkM62TzhfqkYI3094-13">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="667" y="909" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TeLhkM62TzhfqkYI3094-25" value="格式化文本" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="TeLhkM62TzhfqkYI3094-13" target="TeLhkM62TzhfqkYI3094-17">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="764" y="961" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TeLhkM62TzhfqkYI3094-26" value="最终文本" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="TeLhkM62TzhfqkYI3094-17" target="TeLhkM62TzhfqkYI3094-13">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="767" y="1013" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TeLhkM62TzhfqkYI3094-27" value="返回结果" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="TeLhkM62TzhfqkYI3094-13" target="TeLhkM62TzhfqkYI3094-12">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="267" y="1065" />
-            </Array>
           </mxGeometry>
         </mxCell>
       </root>

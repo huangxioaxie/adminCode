@@ -102,6 +102,9 @@
         <mxCell id="TeLhkM62TzhfqkYI3094-53" value="&lt;div&gt;ASR&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
           <mxGeometry x="190" y="450" width="100" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="TeLhkM62TzhfqkYI3094-54" value="通话音频" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="324" y="130" width="94" height="54" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

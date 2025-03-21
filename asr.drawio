@@ -1,125 +1,116 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="Page-1" id="edf60f1a-56cd-e834-aa8a-f176f3a09ee4">
-    <mxGraphModel dx="2722" dy="1292" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2440" dy="1292" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="TeLhkM62TzhfqkYI3094-125" value="上行音频" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=23;" vertex="1" parent="1">
-          <mxGeometry x="20" y="310" width="150" height="786" as="geometry" />
+        <mxCell id="TeLhkM62TzhfqkYI3094-228" value="LLM" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=26;" vertex="1" parent="1">
+          <mxGeometry x="20" y="250" width="150" height="737" as="geometry" />
         </mxCell>
-        <mxCell id="TeLhkM62TzhfqkYI3094-126" value="下行音频" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=23;" vertex="1" parent="1">
-          <mxGeometry x="220" y="310" width="150" height="786" as="geometry" />
+        <mxCell id="TeLhkM62TzhfqkYI3094-229" value="音频" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=26;" vertex="1" parent="1">
+          <mxGeometry x="220" y="250" width="150" height="737" as="geometry" />
         </mxCell>
-        <mxCell id="TeLhkM62TzhfqkYI3094-127" value="LLM" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=23;" vertex="1" parent="1">
-          <mxGeometry x="420" y="310" width="150" height="786" as="geometry" />
+        <mxCell id="TeLhkM62TzhfqkYI3094-230" value="VAD" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=26;" vertex="1" parent="1">
+          <mxGeometry x="420" y="250" width="150" height="737" as="geometry" />
         </mxCell>
-        <mxCell id="TeLhkM62TzhfqkYI3094-128" value="音频" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=23;" vertex="1" parent="1">
-          <mxGeometry x="620" y="310" width="150" height="786" as="geometry" />
+        <mxCell id="TeLhkM62TzhfqkYI3094-231" value="声学模型" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=26;" vertex="1" parent="1">
+          <mxGeometry x="620" y="250" width="150" height="737" as="geometry" />
         </mxCell>
-        <mxCell id="TeLhkM62TzhfqkYI3094-129" value="VAD" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=23;" vertex="1" parent="1">
-          <mxGeometry x="820" y="310" width="150" height="786" as="geometry" />
+        <mxCell id="TeLhkM62TzhfqkYI3094-232" value="音频识别" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=26;" vertex="1" parent="1">
+          <mxGeometry x="820" y="250" width="150" height="737" as="geometry" />
         </mxCell>
-        <mxCell id="TeLhkM62TzhfqkYI3094-130" value="声学模型" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=23;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="310" width="150" height="786" as="geometry" />
+        <mxCell id="TeLhkM62TzhfqkYI3094-233" value="标点处理" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=26;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="250" width="150" height="737" as="geometry" />
         </mxCell>
-        <mxCell id="TeLhkM62TzhfqkYI3094-131" value="音频识别" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=23;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="310" width="150" height="786" as="geometry" />
+        <mxCell id="TeLhkM62TzhfqkYI3094-234" value="后处理" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=26;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="250" width="150" height="737" as="geometry" />
         </mxCell>
-        <mxCell id="TeLhkM62TzhfqkYI3094-132" value="标点处理" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=23;" vertex="1" parent="1">
-          <mxGeometry x="1420" y="310" width="150" height="786" as="geometry" />
+        <mxCell id="TeLhkM62TzhfqkYI3094-235" value="ASR结果" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=26;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="250" width="150" height="737" as="geometry" />
         </mxCell>
-        <mxCell id="TeLhkM62TzhfqkYI3094-133" value="后处理" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=23;" vertex="1" parent="1">
-          <mxGeometry x="1620" y="310" width="150" height="786" as="geometry" />
+        <mxCell id="TeLhkM62TzhfqkYI3094-236" value="屏幕" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=26;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="250" width="150" height="737" as="geometry" />
         </mxCell>
-        <mxCell id="TeLhkM62TzhfqkYI3094-134" value="ASR结果" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=23;" vertex="1" parent="1">
-          <mxGeometry x="1820" y="310" width="150" height="786" as="geometry" />
+        <mxCell id="TeLhkM62TzhfqkYI3094-237" value="大模型SA" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=26;" vertex="1" parent="1">
+          <mxGeometry x="1820" y="250" width="150" height="737" as="geometry" />
         </mxCell>
-        <mxCell id="TeLhkM62TzhfqkYI3094-135" value="屏幕" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=23;" vertex="1" parent="1">
-          <mxGeometry x="2020" y="310" width="150" height="786" as="geometry" />
+        <mxCell id="TeLhkM62TzhfqkYI3094-238" value="" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=0;fontSize=26;" vertex="1" parent="1">
+          <mxGeometry x="210" y="325" width="1496" height="433" as="geometry" />
         </mxCell>
-        <mxCell id="TeLhkM62TzhfqkYI3094-136" value="大模型SA" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=23;" vertex="1" parent="1">
-          <mxGeometry x="2220" y="310" width="150" height="786" as="geometry" />
-        </mxCell>
-        <mxCell id="TeLhkM62TzhfqkYI3094-137" value="" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=0;fontSize=23;" vertex="1" parent="1">
-          <mxGeometry x="610" y="385" width="1496" height="433" as="geometry" />
-        </mxCell>
-        <mxCell id="TeLhkM62TzhfqkYI3094-138" value="" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=23;" vertex="1" parent="TeLhkM62TzhfqkYI3094-137">
+        <mxCell id="TeLhkM62TzhfqkYI3094-239" value="" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="TeLhkM62TzhfqkYI3094-238">
           <mxGeometry width="1496" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="TeLhkM62TzhfqkYI3094-139" value="" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=0;fontSize=23;" vertex="1" parent="1">
-          <mxGeometry x="410" y="828" width="1896" height="173" as="geometry" />
+        <mxCell id="TeLhkM62TzhfqkYI3094-240" value="" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=0;fontSize=26;" vertex="1" parent="1">
+          <mxGeometry x="1484" y="768" width="422" height="124" as="geometry" />
         </mxCell>
-        <mxCell id="TeLhkM62TzhfqkYI3094-140" value="" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=23;" vertex="1" parent="TeLhkM62TzhfqkYI3094-139">
-          <mxGeometry width="1896" height="20" as="geometry" />
+        <mxCell id="TeLhkM62TzhfqkYI3094-241" value="" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="TeLhkM62TzhfqkYI3094-240">
+          <mxGeometry width="422" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="TeLhkM62TzhfqkYI3094-141" value="语音活动检测" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=23;" edge="1" parent="1" source="TeLhkM62TzhfqkYI3094-128" target="TeLhkM62TzhfqkYI3094-129">
+        <mxCell id="TeLhkM62TzhfqkYI3094-242" value="语音活动检测" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=26;" edge="1" parent="1" source="TeLhkM62TzhfqkYI3094-229" target="TeLhkM62TzhfqkYI3094-230">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="804" y="486" />
+              <mxPoint x="404" y="426" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TeLhkM62TzhfqkYI3094-142" value="有效音频段" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=23;" edge="1" parent="1" source="TeLhkM62TzhfqkYI3094-129" target="TeLhkM62TzhfqkYI3094-130">
+        <mxCell id="TeLhkM62TzhfqkYI3094-243" value="有效音频段" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=26;" edge="1" parent="1" source="TeLhkM62TzhfqkYI3094-230" target="TeLhkM62TzhfqkYI3094-231">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1004" y="538" />
+              <mxPoint x="604" y="478" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TeLhkM62TzhfqkYI3094-143" value="特征识别" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=23;" edge="1" parent="1" source="TeLhkM62TzhfqkYI3094-130" target="TeLhkM62TzhfqkYI3094-131">
+        <mxCell id="TeLhkM62TzhfqkYI3094-244" value="特征识别" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=26;" edge="1" parent="1" source="TeLhkM62TzhfqkYI3094-231" target="TeLhkM62TzhfqkYI3094-232">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1204" y="590" />
+              <mxPoint x="804" y="530" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TeLhkM62TzhfqkYI3094-144" value="文本流" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=23;" edge="1" parent="1" source="TeLhkM62TzhfqkYI3094-131" target="TeLhkM62TzhfqkYI3094-132">
+        <mxCell id="TeLhkM62TzhfqkYI3094-245" value="文本流" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=26;" edge="1" parent="1" source="TeLhkM62TzhfqkYI3094-232" target="TeLhkM62TzhfqkYI3094-233">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1404" y="642" />
+              <mxPoint x="1004" y="582" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TeLhkM62TzhfqkYI3094-145" value="格式化文本" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=23;" edge="1" parent="1" source="TeLhkM62TzhfqkYI3094-132" target="TeLhkM62TzhfqkYI3094-133">
+        <mxCell id="TeLhkM62TzhfqkYI3094-246" value="格式化文本" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=26;" edge="1" parent="1" source="TeLhkM62TzhfqkYI3094-233" target="TeLhkM62TzhfqkYI3094-234">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1604" y="694" />
+              <mxPoint x="1204" y="634" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TeLhkM62TzhfqkYI3094-146" value="数字转换" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=23;" edge="1" parent="1" source="TeLhkM62TzhfqkYI3094-133" target="TeLhkM62TzhfqkYI3094-134">
+        <mxCell id="TeLhkM62TzhfqkYI3094-247" value="数字转换" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=26;" edge="1" parent="1" source="TeLhkM62TzhfqkYI3094-234" target="TeLhkM62TzhfqkYI3094-235">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1804" y="746" />
+              <mxPoint x="1404" y="686" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TeLhkM62TzhfqkYI3094-147" value="显示结果" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=23;" edge="1" parent="1" source="TeLhkM62TzhfqkYI3094-134" target="TeLhkM62TzhfqkYI3094-135">
+        <mxCell id="TeLhkM62TzhfqkYI3094-248" value="显示结果" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=26;" edge="1" parent="1" source="TeLhkM62TzhfqkYI3094-235" target="TeLhkM62TzhfqkYI3094-236">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2004" y="798" />
+              <mxPoint x="1604" y="738" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TeLhkM62TzhfqkYI3094-148" value="请求翻译" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=23;" edge="1" parent="1" source="TeLhkM62TzhfqkYI3094-127" target="TeLhkM62TzhfqkYI3094-136">
+        <mxCell id="TeLhkM62TzhfqkYI3094-249" value="请求翻译" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=26;" edge="1" parent="1" source="TeLhkM62TzhfqkYI3094-235" target="TeLhkM62TzhfqkYI3094-237">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1404" y="929" />
+              <mxPoint x="1704" y="820" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TeLhkM62TzhfqkYI3094-149" value="返回翻译结果" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=23;" edge="1" parent="1" source="TeLhkM62TzhfqkYI3094-136" target="TeLhkM62TzhfqkYI3094-135">
+        <mxCell id="TeLhkM62TzhfqkYI3094-250" value="返回翻译结果" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=26;" edge="1" parent="1" source="TeLhkM62TzhfqkYI3094-237" target="TeLhkM62TzhfqkYI3094-236">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2207" y="981" />
+              <mxPoint x="1807" y="872" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TeLhkM62TzhfqkYI3094-150" value="ASR流程" style="fillColor=#ffff88;strokeColor=#9E916F;fontSize=23;" vertex="1" parent="1">
-          <mxGeometry x="620" y="405" width="150" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="TeLhkM62TzhfqkYI3094-151" value="翻译流程" style="fillColor=#ffff88;strokeColor=#9E916F;fontSize=23;" vertex="1" parent="1">
-          <mxGeometry x="420" y="848" width="150" height="49" as="geometry" />
+        <mxCell id="TeLhkM62TzhfqkYI3094-251" value="ASR流程" style="fillColor=#ffff88;strokeColor=#9E916F;fontSize=26;" vertex="1" parent="1">
+          <mxGeometry x="220" y="345" width="150" height="49" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
